@@ -18,8 +18,7 @@ server, and ReactJS for frontend side. I'm using mongodb for storing data.
 5. Recapitulation income and outcome with chart
 
 #### Note: ####
-New Version
-<i> Join client server on single serve </i>
+New Version: <i> Join client server on single serve </i>
 ___
 
 
