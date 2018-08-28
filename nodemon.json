@@ -1,0 +1,8 @@
+{
+    "env":{
+        "PORT": 8000,
+        "JWT_KEY": "trygetthis",
+        "SERVER": "http://localhost:8000",
+        "CLIENT": "http://localhost:5100"
+    }
+}

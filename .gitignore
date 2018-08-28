@@ -1,0 +1,6 @@
+todo.txt
+/node_modules
+
+*.bat
+*.log
+*.txt

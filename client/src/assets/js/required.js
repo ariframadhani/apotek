@@ -1,0 +1,6 @@
+import '../css/auth.css'
+import '../css/dashboard.css'
+import '../css/section.css'
+import '../css/chart.css'
+import '../css/fontawesome-all.min.css'
+import '../css/bootstrap.min.css'

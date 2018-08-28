@@ -1,0 +1,594 @@
+
+.table-custom{
+    font-size: 14px;
+}
+
+.table-kasir{
+    font-size: 13px;
+}
+
+.qty-item-kasir{
+    padding: 5px 0;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #798d8113;
+    width: 100%;
+    transition: .2s;
+    border-radius: 20px;
+}
+
+.qty-item-kasir:hover, .qty-item-kasir:focus{
+    background: #3d4d43a8;
+    color: white;
+}
+
+.header-section{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.267);
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.header-section h3{
+    font-size: 20px;
+    color: #29a85c;
+    margin-bottom: 20px;
+    font-family: 'monts';
+}
+
+.header-section h3, form.search-item{
+    display: inline
+}
+
+.message-info{
+    text-align: center;
+    background: green;
+}
+
+.header-section form.search-item{
+    float:right;
+}
+
+.header-section form.search-item input[type="text"]{
+    outline: none;
+    border: none;
+    padding: 5px 0 5px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: rgba(175, 175, 175, 0.384);;
+    transition: .2s all;
+}
+
+.header-section form.search-item input[type="text"]:focus{
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(50, 104, 25, 0.575);
+    color: rgb(53, 53, 53);
+}
+
+.header-section form.search-item input[type="text"]:valid{
+    background: rgba(255, 255, 255, 0.685);
+    border: 1px solid rgba(79, 172, 36, 0.356);
+    color: rgb(53, 53, 53);
+}
+
+.action-btn-edit{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 12px;
+    margin: 0 5px;
+    background: rgba(228, 122, 23, 0.801);
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.action-btn-edit:hover{   
+    background: rgba(175, 94, 18, 0.966);
+}
+
+.action-btn-delete{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 12px;
+    margin: 0 5px;
+    background: rgba(209, 34, 34, 0.801);
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.action-btn-delete:hover{   
+    background: rgba(175, 34, 34, 0.863);
+}
+
+.action-btn-add{
+    outline:none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-color: #2ab152c0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.801);
+    transition: .2s;
+}
+
+
+.action-btn-add:hover{
+    background-color: #2ab152;
+}
+
+.action-btn-add:focus{
+    background-color: #114d23;
+    outline: none;
+}
+
+.action-btn-info{    
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 12px;
+    margin: 0 5px;
+    background: rgba(34, 116, 209, 0.801);
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+.action-btn-info:hover{    
+    background: rgba(34, 116, 209, 0.938);
+}
+
+.action-btn-info:focus{    
+    background: rgb(24, 76, 134);
+}
+.controller {
+    padding: 6px;
+    padding-bottom: 10px;
+    border: .5px dotted rgba(99, 99, 99, 0.384);
+}
+
+.controller h5{
+    font-size: 13px;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.row.rule{
+    margin: 0px;
+}
+
+.controller input{
+    margin-bottom: 10px;
+}
+
+.controller input[type=text], 
+.controller input[type=number], 
+.controller input[type=date], 
+.controller input[type=datetime-local], 
+.controller textarea, 
+.controller select {
+    outline: none;
+    border: none;
+    padding: 5px 0 5px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    background: rgba(175, 175, 175, 0.384);;
+    transition: .3s all;
+    width: 100%;
+    resize: none;   
+    border-left: 6px solid #29a85c;
+}
+
+.controller textarea{    
+    border-left: 6px solid #4e4e4e;
+    background: rgba(175, 175, 175, 0.164);;
+    
+}
+
+.controller input[type=text]:focus, 
+.controller input[type=number]:focus, 
+.controller input[type=date]:focus, 
+.controller input[type=datetime-local]:focus, textarea:focus, 
+.controller select:focus{
+
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(50, 104, 25, 0.575);
+    color: rgb(53, 53, 53);
+    border-left: 10px solid #29a85c;
+}
+
+.controller textarea:focus{
+    border-left: 10px solid #4e4e4e;
+}
+
+.controller input[type=text]:valid, 
+.controller input[type=number]:valid, 
+.controller input[type=date]:valid, 
+.controller input[type=datetime-local]:valid, 
+.controller select:valid{
+
+    background: rgba(255, 255, 255, 0.685);
+    border: 1px solid rgba(50, 104, 25, 0.575);
+    color: rgb(53, 53, 53);
+    border-left: 10px solid #29a85c;
+}
+
+.controller textarea{
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.controller select{
+    margin-bottom: 15px;
+}
+
+.input-block{
+    display: inline;
+}
+
+.required-note{
+    border-right: 5px solid #29a85c;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+.not-required-note{
+    border-right: 5px solid #4e4e4e;
+    border-radius: 20px;
+    margin-left: 3px;
+}
+
+.controller .control-edit input{
+    margin-bottom: -10px;
+}
+
+.controller .control-edit input[type=text],
+.controller .control-edit input[type=number],
+.controller .control-edit input[type=date],
+.controller .control-edit select
+{
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-left: 6px solid rgba(212, 111, 16, 0.966);
+    background: #cecab362;
+    }
+
+.controller .control-edit input[type=text]:focus,
+.controller .control-edit input[type=number]:focus,
+.controller .control-edit input[type=date]:focus,
+.controller .control-edit select:focus
+{
+    background: #6e65344b;
+    border-left: 10px solid rgba(212, 111, 16, 0.966);
+    color: black;
+}
+
+.controller .control-edit input[type=text]:valid, 
+.controller .control-edit input[type=number]:valid,
+.controller .control-edit input[type=date]:valid,
+.controller .control-edit select:valid
+{
+    background: #464020ad;
+    border-left: 10px solid rgba(212, 111, 16, 0.966);
+    color: rgb(241, 236, 236);
+}
+
+.controller .control-edit input[type=text]:disabled,
+.controller .control-edit select:disabled
+{
+    background: #00000048;
+}
+
+.controller .control-edit textarea {
+    border-left: 6px solid rgba(116, 60, 8, 0.966); 
+    font-size: 14px;
+}
+
+.controller .control-edit textarea:focus{
+    border-left: 10px solid rgba(116, 60, 8, 0.966);
+}
+
+.pop-up-background{
+    background: rgba(41, 41, 41, 0.452);
+    height: 100vh;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.section.info-popup{
+    position: fixed;
+    background: rgba(243, 243, 243, 0.986);
+    margin: 0 auto;
+    top: 10%;
+    left: 26%;
+    transition: .2s all;
+    border-top: 4px solid rgba(24, 59, 99, 0.726);
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 60px 1px rgba(71, 71, 71, 0.322);
+    overflow-y: scroll;
+    height: 80%;
+    animation: zoom .6s;
+}
+
+.header-popup{
+    margin-bottom: 20px;
+}
+
+.section.info-popup h5,
+.section.info-popup p{
+    text-align: center;
+    display: inline;
+}
+
+.section.info-popup p{
+    float: right;
+}
+
+.content-popup{
+    padding: 5px;
+    font-size: 12.5px;
+}
+
+.content-popup input, .content-popup textarea{
+    font-size: 12.5px;
+    transition: .3s;
+    color: rgba(23, 26, 70, 0.712);
+    font-weight: bold;
+}
+
+.header-popup .btn-close{
+    float: right;
+    color: rgba(145, 25, 16, 0.808);
+    font-size: 25px;
+    cursor: pointer
+}
+
+.btn-edit-menu{
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    font-size: 13px;
+    background: rgba(185, 84, 44, 0.795);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    transition: .2s;
+}
+
+
+.btn-edit-menu:hover{
+    background: rgba(185, 84, 44, 0.938);
+}
+
+.btn-edit-menu:focus{    
+    outline: none;
+    background: rgba(128, 53, 24, 0.938);
+}
+
+.btn-cancel-menu{
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    font-size: 13px;
+    background: rgba(233, 7, 7, 0.596);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    transition: .2s;
+}
+
+
+.btn-cancel-menu:hover{
+    background: rgba(233, 7, 7, 0.849);
+}
+
+#select-option-checkbox{
+    animation: select-option 500ms;
+}
+
+.alert{
+    text-align: center;
+    font-size: 13px;
+    animation: alert 1s;
+    display: block;
+}
+
+.what{
+    animation: select-option 500ms;
+}
+
+.expired-status{
+   background: rgba(230, 34, 34, 0.801);
+   border-radius: 20px;
+   color: white; 
+   text-align: center;
+   font-size: 12px;
+   padding: 5px;
+   transition: 2s all;
+}
+
+.safe-status{
+    background: rgba(71, 153, 39, 0.801);
+    border-radius: 20px;
+    color: white; 
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    transition: 2s all;
+ }
+ 
+ #clock{
+    position: absolute;
+    left: 56%;
+    transform: translateX(-50%);
+     background: #3a3a3af1;
+     color: rgb(255, 255, 255);
+     border-radius: 10px;
+     padding: 5px 20px;
+     font-size: 13px;
+     transition: .3s all;
+
+ }
+
+ #clock:hover{
+    font-size: 18px;
+ }
+
+.btn-refresh-data{
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 6px 9px;
+    height: 50%;
+    border-radius: 100px;
+    margin-left: 10px;
+    background: rgba(201, 201, 201, 0.527);
+    transition: .1s all ease-in-out;
+    color: rgba(21, 65, 16, 0.877);
+    
+ }
+
+ .btn-pagination{
+     margin-right: 10px;
+     font-size: 12px !important;
+     padding-left: 20px !important;
+     padding-right: 20px !important;
+ }
+
+ .btn-refresh-data:hover{
+    background: rgba(201, 201, 201, 0.938);
+ }
+
+ 
+ .btn-refresh-data:focus{
+     outline: none;
+ }
+
+ .badge-danger{
+     background-color: #b01d2cce !important;
+ }
+
+ .kasir input[type=text],
+ .kasir input[type=number]{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    padding: 5px 12px;
+    font-size: 13px;
+    transition: .3s all;
+    background-color: #c4c4c42d;
+    border-left: 6px solid #c9c8bd;
+ }
+
+ .kasir input[type=text]:focus,
+ .kasir input[type=number]:focus{
+    
+    box-shadow: none;
+    outline: none;
+    border-left: 10px solid #6d6d6d;
+ }
+
+ .kasir input[type=text]:valid,
+ .kasir input[type=number]:valid{
+    border-left: 10px solid #6d6d6d;
+ }
+ 
+
+
+ .add-to-cart{
+     font-size: 13px !important;
+     padding: 10px 15px;
+     border-radius: 5px;
+     transition: .4s all;
+     cursor: pointer;
+     width: 100%;
+ }
+
+.small-label{
+    font-size: 12px !important;
+}
+
+.form-control{
+    box-shadow: none !important;
+}
+
+#loading{
+    border: 4px solid rgb(230, 230, 230);
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 50%;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+    border-top-color: #25a558;
+    transition: .3s all;
+    animation: loading 1s linear infinite
+}
+
+.bottom-space{
+    margin-bottom: 50px;
+}
+
+
+.input-qty input[type=number]::-webkit-inner-spin-button,
+.input-qty input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0
+}
+
+
+@keyframes loading{
+    from{transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}
+
+
+@keyframes zoom{
+    0%{ transform: scale(0)}
+    100%{transform: scale(1)}
+}
+
+@keyframes alert{
+    0%{ opacity: .2}
+    25%{ margin-bottom: 40px}
+}
+
+@keyframes select-option{
+    0%{ opacity: 0.1 }
+    20% { margin-left: 100px; margin-bottom: 80px}
+    100%{ opacity: 1 }
+}
+
+
+@keyframes select-option-chart{
+    0%{ opacity: 0.1 }
+    100%{ opacity: 1 }
+}
+
+
+
+
+
+
