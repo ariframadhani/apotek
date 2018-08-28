@@ -18,8 +18,8 @@ server, and ReactJS for frontend side. I'm using mongodb for storing data.
 5. Recapitulation income and outcome with chart
 
 #### Note: ####
-There are two main branches in this repository, "backend" for the NodeJS files and "master" for the ReactJS files.
-
+New Version
+<i> Join client server on single serve </i>
 ___
 
 
