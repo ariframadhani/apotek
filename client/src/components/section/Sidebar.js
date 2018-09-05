@@ -89,7 +89,7 @@ class Menu extends Component {
             <li> <a href="/logout" title="Logout"> <i className="icon-menus fas fa-power-off"></i> Logout </a></li>
             </div>
             <li> <a href="/obat" title="Obat"> <i className="icon-menus fas fa-pills"></i> Obat </a></li>
-            <li> <a href="/kasir"title="Kasir"> <i className="icon-menus far fa-money-bill-alt"></i> Kasir {this.state.kasir_length >= 1 ? <span title={'Terdapat ' + this.state.kasir_length + ' data pada kasir'} style={{marginLeft: '50px', padding: '5px 7px', borderRadius: '20px', cursor: 'help'}} className="badge badge-secondary"> {this.state.kasir_length} </span> : <span></span> }  </a></li>
+            <li> <a href="/kasir" title="Kasir"> <i className="icon-menus far fa-money-bill-alt"></i> Kasir {this.state.kasir_length >= 1 ? <span title={'Terdapat ' + this.state.kasir_length + ' data pada kasir'} style={{marginLeft: '50px', padding: '5px 7px', borderRadius: '20px', cursor: 'help'}} className="badge badge-secondary"> {this.state.kasir_length} </span> : <span></span> }  </a></li>
             <li> <a href="/penjualan" title="Penjualan"> <i className="icon-menus fas fa-chart-line"></i> Penjualan </a></li>
             <li> <a href="/pembelian" title="Pambelian"> <i className="icon-menus fas fa-truck"></i> Pembelian </a></li>
               

@@ -87,7 +87,6 @@ exports.detail = (req, res, next) => {
     if (req.params.id === 'search') {
         return next()
     }
-
     Obat.findById(req.params.id)
     .select('date _id name price stock note category_id user_id')
     .populate('user_id', 'name username')
